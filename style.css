@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(15, 15, 15);
+  gap: 10rem;
+}
+
+#circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: slateblue;
+  color: #fff;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
+}
+
+.hover {
+  transform: scale(2);
+}
+
+.instructions {
+  color: #fff;
+}
